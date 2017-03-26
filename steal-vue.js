@@ -5,6 +5,7 @@ exports.translate = function (load) {
   let output = compiler.parseComponent(load.source);
   let script = output.script && output.script.content;
   let styles = output.styles && output.styles[0] && `"${output.styles[0].content}"`;
+  let stylesLang = (output.styles && output.styles[0] && output.styles[0].attrs.lang) || 'css';
   let template = output.template && output.template.content;
 
   let baseName = load.name.substr(0, load.name.indexOf('!'));
@@ -28,8 +29,8 @@ exports.translate = function (load) {
   }
 
   // Load styles
-  let styleName = makeName(baseName, 'style', 'css!');
-  let styleAddress = makeAddress(load.address, 'style', 'css!css');
+  let styleName = makeName(baseName, 'style', stylesLang + '!');
+  let styleAddress = makeAddress(load.address, 'style', stylesLang + '!' + stylesLang);
   var styleLoad = {};
   var stylePromise = loader.normalize(styleName, load.name)
     .then(function (name) {
