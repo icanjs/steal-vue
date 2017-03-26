@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/stealjs/steal-vue.svg?branch=master)](https://travis-ci.org/stealjs/steal-vue)
 [![npm version](https://badge.fury.io/js/steal-vue.svg)](https://badge.fury.io/js/steal-vue)
 
-> Note: I still haven't gotten styles to work.
+> Note: Currently only works with plain CSS styles.  (No Less or Sass support, yet)
 # StealJS plugin for Vue.js Single File Components.
 
 Steal ([StealJS](http://stealjs.com/)) is a module loader with sane defaults.  With the _steal-vue_ plugin, Steal can bundle Vue.js Single File Components with your application.
