@@ -20,11 +20,11 @@ export default {
 
 <style scoped>
 p {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px;
 }
 
 p.hello-vue {
   color: lightseagreen;
+  font-weight: bold;
 }
 </style>

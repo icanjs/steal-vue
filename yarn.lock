@@ -329,6 +329,10 @@ sha.js@^2.3.6:
   dependencies:
     inherits "^2.0.1"
 
+steal-css@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/steal-css/-/steal-css-1.2.1.tgz#e3a3e97dfce857928d6bf65d6111178b93aee2b4"
+
 steal@^1.3.2:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/steal/-/steal-1.3.2.tgz#3307472149126aff0fd6766c487a8ac811178bf8"
