@@ -29,7 +29,7 @@ You'll want to also update your `steal` config.  Add `steal-vue` to your list of
 
 ## Use
 
-After you've installed the plugin, you'll be able to load `.vue` files:
+After you've installed the plugin, you'll be able to load `.vue` files.  For example, given the following example component:
 
 ```vue
 // Hello.vue
