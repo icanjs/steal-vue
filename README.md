@@ -11,13 +11,17 @@ Steal ([StealJS](http://stealjs.com/)) is a module loader with sane defaults.  W
 npm install steal-vue --save
 ```
 
-You'll want to also update your `steal` config:
+You'll want to also update your `steal` config.  Add `steal-vue` to your list of plugins.  
+
+> Don't forget to add the steal plugin for whichever type of styles you'll be using.
 
 ```json
 {
   "steal": {
     "plugins": [
-      "steal-vue"
+      "steal-vue",
+      "steal-css",
+      "steal-less"
     ]
   }
 }
