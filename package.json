@@ -1,9 +1,9 @@
 {
   "name": "steal-vue",
   "version": "0.0.5",
-  "description": "An SVG loader for StealJS",
+  "description": "A Vue.js Single File Component loader for StealJS",
   "main": "steal-vue.js",
-  "repository": "https://github.com/stealjs/steal-svg",
+  "repository": "https://github.com/icanjs/steal-vue",
   "author": "Marshall Thompson - marshall@creativeideal.net",
   "license": "MIT",
   "dependencies": {

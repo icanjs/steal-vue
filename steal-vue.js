@@ -1,4 +1,4 @@
-const compiler = require('vue-template-compiler');
+const compiler = require('vue-template-compiler/build');
 
 exports.translate = function (load) {
   let loader = this.localLoader || this;
