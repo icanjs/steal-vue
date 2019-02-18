@@ -1,13 +1,13 @@
 {
   "name": "steal-vue",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "A Vue.js Single File Component loader for StealJS",
   "main": "steal-vue.js",
   "repository": "https://github.com/icanjs/steal-vue",
   "author": "Marshall Thompson - marshall@creativeideal.net",
   "license": "MIT",
   "dependencies": {
-    "vue-template-compiler": "^2.2.5"
+    "vue-template-compiler": "^2.6.6"
   },
   "steal": {
     "ext": {
@@ -23,6 +23,6 @@
     "steal": "^1.3.2",
     "steal-css": "^1.2.1",
     "steal-less": "^1.2.0",
-    "vue": "^2.2.5"
+    "vue": "^2.6.6"
   }
 }
