@@ -1,6 +1,6 @@
 {
   "name": "steal-vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Vue.js Single File Component loader for StealJS",
   "main": "steal-vue.js",
   "repository": "https://github.com/icanjs/steal-vue",
